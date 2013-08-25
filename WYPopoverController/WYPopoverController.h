@@ -103,7 +103,7 @@ typedef NS_OPTIONS(NSUInteger, WYPopoverArrowDirection) {
 @protocol WYPopoverControllerDelegate <NSObject>
 @optional
 
-- (BOOL)popoverControllerShouldDismiss:(WYPopoverController *)popoverController;
-- (void)popoverControllerDidDismiss:(WYPopoverController *)popoverController;
+- (BOOL)popoverControllerShouldDismissPopover:(WYPopoverController *)popoverController;
+- (void)popoverControllerDidDismissPopover:(WYPopoverController *)popoverController;
 
 @end
